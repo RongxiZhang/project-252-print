@@ -1,0 +1,138 @@
+html{
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.body {
+    width:750px;
+}
+
+.main {
+    margin: 0 auto;
+    height:100%;
+}
+
+.header {
+    width:750px;
+    height:95px;
+    line-height:95px;
+    background: #FFFFFF;
+}
+
+.header .in-width {
+    width:710px;
+}
+
+.header .in-width a {
+    color:#19A787;
+}
+
+.header .van-nav-bar {
+    font-size:36px;
+    margin:26px 0 19px 0;
+}
+
+.header .van-hairline--bottom, .header .van-hairline--bottom::after {
+    border-bottom: none;
+}
+
+.header .van-nav-bar .van-ellipsis, .header .van-nav-bar .van-nav-bar__left {
+    font-size:36px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width:750px;
+}
+
+.in-width {
+    width:710px;
+    margin:0 auto;
+}
+
+.in-title {
+    padding:22px 0 22px 0;
+    margin-left:30px;
+}
+
+.in-title .tag {
+    background: #19A787;
+    width:6px;
+    height:30px;
+    margin-top: 6px;
+    border-radius:3px;
+    margin-left:12px;
+}
+
+.in-title .title {
+    margin-left:24px;
+}
+
+.division {
+    width:750px;
+    height:20px;
+    background:#F9F9F9;
+}
+
+.cell .cell-row {
+    font-size:28px;
+    height:90px;
+    line-height:90px;
+    width:100%;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.cell .headimg {
+
+}
+
+.pd-t-55 {
+    padding-top: 55px;
+}
+
+.mg-t-45 {
+    margin-top:45px;
+}
+
+.mg-t-7 {
+    margin-top:7px;
+}
+
+.mg-t-19 {
+    margin-top: 19px;
+}
+
+.mg-l-10 {
+    margin-left:10px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font26 {
+    font-size: 26px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+dl, dt, dd {
+    margin:0;
+    padding:0;
+    border:none;
+}

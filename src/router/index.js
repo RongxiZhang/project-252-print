@@ -11,9 +11,22 @@ export default new Router({
       component: () => import('@/pages/home/index')
     },
     {
+      // 个人中心
       path: '/user',
       name: 'user',
       component: () => import('@/pages/user/index')
+    },
+    {
+      // 编辑个人资料
+      path: '/user/personal',
+      name: 'personal',
+      component: () => import('@/pages/user/personal')
+    },
+    {
+      // 编辑昵称
+      path: '/user/nickname',
+      name: 'nickname',
+      component: () => import('@/pages/user/nickname')
     }
   ]
 })
